@@ -14,8 +14,7 @@ public class Agenda {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Este es el nuevo repositorio");
+       System.out.println("Nueva prueba"); // TODO code application logic here
     }
     
 }
