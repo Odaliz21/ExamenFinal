@@ -18,7 +18,7 @@ public class FXMain extends Application {
             
             Scene scene = new Scene(Margen);
             primaryStage.setScene(scene);
-            primaryStage.setTitle("Matricula");
+            primaryStage.setTitle("Matricula_Alumnos");
             primaryStage.show();
         } catch(IOException e){
             System.out.println(e.getMessage());
