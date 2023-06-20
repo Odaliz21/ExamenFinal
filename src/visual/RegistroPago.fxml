@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.PagoController">
+   <children>
+      <AnchorPane layoutX="3.0" prefHeight="400.0" prefWidth="594.0">
+         <children>
+            <Label layoutX="68.0" layoutY="14.0" text="REGISTRO DE PAGO">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNombre" layoutX="102.0" layoutY="74.0" prefHeight="25.0" prefWidth="129.0" />
+            <Label layoutX="26.0" layoutY="61.0" text="Nombre :" />
+            <Label layoutX="297.0" layoutY="78.0" text="Costo de la Matricula :" />
+            <TextField fx:id="txtMatricula" layoutX="430.0" layoutY="74.0" prefHeight="25.0" prefWidth="129.0" />
+            <Line endX="335.0" layoutX="215.0" layoutY="108.0" startX="-158.0" stroke="#00000044" />
+            <Label layoutX="34.0" layoutY="120.0" text="Marzo" />
+            <TextField fx:id="txtMarzo" layoutX="76.0" layoutY="116.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="159.0" layoutY="118.0" text="Junio" />
+            <TextField fx:id="txtJunio" layoutX="200.0" layoutY="114.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="281.0" layoutY="118.0" text="Septiembre" />
+            <TextField fx:id="txtSeptiembre" layoutX="349.0" layoutY="114.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="430.0" layoutY="117.0" prefHeight="26.0" prefWidth="62.0" text="Diciembre" />
+            <TextField fx:id="txtDiciembre" layoutX="492.0" layoutY="117.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="38.0" layoutY="157.0" text="Abril" />
+            <TextField fx:id="txtAbril" layoutX="82.0" layoutY="153.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="164.0" layoutY="158.0" text="Julio" />
+            <TextField fx:id="txtJulio" layoutX="204.0" layoutY="150.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="294.0" layoutY="153.0" text="Octubre" />
+            <TextField fx:id="txtOctubre" layoutX="349.0" layoutY="153.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="35.0" layoutY="192.0" text="Mayo" />
+            <TextField fx:id="txtMayo" layoutX="82.0" layoutY="186.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="157.0" layoutY="190.0" text="Agosto" />
+            <TextField fx:id="txtAgosto" layoutX="201.0" layoutY="186.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="285.0" layoutY="195.0" text="Noviembre" />
+            <TextField fx:id="txtNoviembre" layoutX="349.0" layoutY="188.0" prefHeight="18.0" prefWidth="62.0" />
+            <Label layoutX="318.0" layoutY="292.0" text="Total a pagar :" textFill="#262323" />
+            <TextField fx:id="txtPagoTotal" layoutX="411.0" layoutY="279.0" prefHeight="25.0" prefWidth="129.0" />
+            <Button fx:id="btnGuardar" layoutX="424.0" layoutY="331.0" mnemonicParsing="false" onAction="#Guardar" prefHeight="34.0" prefWidth="117.0" style="-fx-background-color: #3F2B50;" text="Guardar" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
