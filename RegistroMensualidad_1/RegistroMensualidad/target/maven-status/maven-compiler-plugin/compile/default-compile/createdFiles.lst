@@ -1,0 +1,5 @@
+module-info.class
+mensualidad\control\App.class
+mensualidad\control\agregarEstudianteController.class
+mensualidad\control\RegistroPagoController.class
+mensualidad\control\BordeController.class
